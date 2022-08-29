@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+}
+/*--general*/
+
+/*--nav--*/
+header{
+    position: fixed;
+    max-height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-img{
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-links{
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.nav-links a{
+    color: seashell;
+    margin: 0px 10px;
+}
+
+/*--banner--*/
+.banner{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*fho1in*_ga*OTcwOTY0MjQ1LjE2MjUwNzE3MzY.*_ga_3LRZM6TM9L*MTY2MTY5MjIwMS4yNTAuMS4xNjYxNjkyMjAzLjU4LjAuMA..);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text h2{
+    margin-bottom: 10px;
+}
+
+.banner-text h4{
+    margin-bottom: 5px;
+}
+
+/*--tea-month--*/
+.featured{
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tea-month{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.tea-month h2{
+    margin-bottom: 20px;
+}
+
+.featured img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/*--locations--*/
+.locations{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*xcjjhf*_ga*OTcwOTY0MjQ1LjE2MjUwNzE3MzY.*_ga_3LRZM6TM9L*MTY2MTc3MTkzMS4yNTMuMC4xNjYxNzcxOTMxLjYwLjAuMA..);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.locations h2{
+    background: none;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    background: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loc{
+    margin: 0px 40px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*--footer--*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
